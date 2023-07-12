@@ -31,6 +31,9 @@ a {
     color: white;
     display: inline-block;
 }
+ul{
+    list-style-type: none;
+}
 /* HEADER */
 header {
     width: 100%;
@@ -48,14 +51,28 @@ header {
     width: var(--header-height);
     
 }
+.logo-normal img {
+    /* max-width: none; */
+    width: 200px;
+}
 .input-group > .form-control{
     box-shadow: none; 
     border-color: initial;
-
-    height: 35.73px;
     border-color: lightgray;
     background-color: lightgray;
 }
 .input-group-text{
     background-color: lightgray; 
+}
+
+/* SIDEBAR */
+#sidebar{
+    width: var(--sidebar-width);
+    background-color: var(--sidebar-color);
+    height:calc(100vh - var(--header-height));
+}
+
+
+#sidebar{
+    min-width: 100px;
 }
