@@ -1,0 +1,61 @@
+/* COMMONS */
+
+/* VARIABLES */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --sidebar-color: #051E34;
+    --sidebar-width: 60px;
+    --sidebar-width-lg: 150px;
+    --header-color: #FFFFFF;
+    --header-height: 70px;
+    --navbarblue-top-color:#1B72E8;
+    --bell-color: #FF8F00;
+    --btn-color: #165BBA;
+}
+.wrapper{
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+/* HEADER */
+header {
+    width: 100%;
+    height: var(--header-height);
+}
+
+.bell{
+    color: var(--bell-color);
+}
+.logo {
+    height: 100%;
+}
+
+.logo > * {
+    width: var(--header-height);
+    
+}
+.input-group > .form-control{
+    box-shadow: none; 
+    border-color: initial;
+
+    height: 35.73px;
+    border-color: lightgray;
+    background-color: lightgray;
+}
+.input-group-text{
+    background-color: lightgray; 
+}
