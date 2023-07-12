@@ -14,6 +14,7 @@ body {
     --header-color: #FFFFFF;
     --header-height: 70px;
     --navbarblue-top-color:#1B72E8;
+    --navbarblue-top-height: 70px;
     --bell-color: #FF8F00;
     --btn-color: #165BBA;
 }
@@ -72,7 +73,25 @@ header {
     height:calc(100vh - var(--header-height));
 }
 
-
-#sidebar{
-    min-width: 100px;
+#home {
+    width: 100%;
 }
+#settins {
+    width: 100%;
+}
+/* MAIN CONTENT */
+#main-content{
+    width: calc(100% - var(--sidebar-width));
+    height: calc(100vh - var(--header-height));
+}
+   /*NAVBAR BLUE  */
+#navbar-blue{
+    width: 100%;
+    /* height: var(--navbarblue-top-height); */
+    background-color: var(--navbarblue-top-color);
+}
+.btn-primary{
+background-color: black;
+opacity: 0.2;
+}
+
