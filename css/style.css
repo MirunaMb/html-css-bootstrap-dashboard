@@ -40,6 +40,9 @@ header {
     width: 100%;
     height: var(--header-height);
 }
+.form-control{
+    padding: 0.30rem .75rem;
+}
 
 .bell{
     color: var(--bell-color);
