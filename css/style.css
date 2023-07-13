@@ -94,4 +94,26 @@ header {
 background-color: black;
 opacity: 0.2;
 }
+/* MAIN SECTION */
+/* TABLE  */
+
+table img {
+    width: 20px;
+}
+.ms_done{
+    background-color: #198754;
+    /* width: 40px; */
+    /* border-radius: 3px; */
+}
+.ms_process{
+    background-color: #FFC107;
+}
+
+.ms_failed{
+    background-color: #DC3545;
+}
+
+.table .btn{
+    border-color: black;
+}
 
