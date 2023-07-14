@@ -94,7 +94,7 @@ header {
     /* height: var(--navbarblue-top-height); */
     background-color: var(--navbarblue-top-color);
 }
-.btn-primary{
+.boolean .btn-primary{
 background-color: black;
 opacity: 0.2;
 }
@@ -120,4 +120,7 @@ table img {
 .table .btn{
     border-color: black;
 }
-
+/* CANVAS */
+.btn{
+    border: var(--bs-btn-border-width) solid white;
+}
